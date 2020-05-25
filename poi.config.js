@@ -11,7 +11,7 @@ module.exports = (options, req) => ({
     title: pkg.productName,
     description: pkg.description,
     template: path.join(__dirname, 'index.ejs'),
-    publicPath: '/dist/',
+    publicPath: './dist/',
   },
   postcss: {
     plugins: [],
